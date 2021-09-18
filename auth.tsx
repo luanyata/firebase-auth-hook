@@ -15,8 +15,8 @@ import React, {
   useContext,
   useState,
 } from 'react';
-import api from '../config/axios';
-import auth from '../config/firebase';
+import api from './axios';
+import auth from './firebase';
 
 type AuthenticationProviderProps = {
   children: ReactNode;
